@@ -40,10 +40,3 @@ assets/
 flutter pub get
 flutter run
 ```
-
----
-
-## 📸 Prints
-Adicione aqui prints das telas:
-- Tela inicial (Splash)
-- Tela Home
