@@ -1,23 +1,49 @@
-# Splash App 🚀
+# 📱 Splash App Flutter
 
-## 📱 Sobre o projeto
-Aplicação simples com tela de splash animada que coleta nome e idade do usuário e exibe em uma tela Home.
+## 📌 Descrição
+Aplicativo desenvolvido em Flutter com uma tela inicial (Splash) contendo uma imagem animada, campos para nome e idade, e navegação para uma tela Home que exibe os dados.
+
+---
+
+## 🎯 Funcionalidades
+- Imagem animada descendo na tela
+- Campo para digitar o nome
+- Campo para digitar a idade
+- Botão para acessar a tela Home
+- Exibição do nome e idade na próxima tela
+
+---
 
 ## 🛠 Tecnologias utilizadas
-- HTML
-- CSS
-- JavaScript
+- Flutter
+- Dart
 
-## 🎬 Funcionalidades
-- Animação da imagem (de cima para o centro)
-- Input de nome
-- Input de idade
-- Navegação para tela Home
-- Exibição dos dados do usuário
+---
 
-## 📸 Prints
-(coloque aqui prints do seu projeto rodando)
+## 📂 Estrutura do projeto
+```
+lib/
+ ├── main.dart
+ ├── splash.dart
+ └── home.dart
+
+assets/
+ └── images/
+      └── joaninha.png
+```
+
+---
 
 ## ▶️ Como executar
-1. Baixe o projeto
-2. Abra o arquivo `index.html` no navegador
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+## 📸 Prints
+Adicione aqui prints das telas:
+- Tela inicial (Splash)
+- Tela Home
